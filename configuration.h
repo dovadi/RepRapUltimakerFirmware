@@ -69,15 +69,15 @@
 // Axis scaling in stepper-motor steps per mm of movement
 
 // Select 1/16 STEP!
-#define X_STEPS_PER_MM   79.87220447 //Ultimaker's belt pitch is 2.032mm. 2.032*20=40.064. 40.064/200/16 mm/step
+#define X_STEPS_PER_MM   64.0000 // Darwin's belt pitch is 5 mm. 5*10=50 (200*16)/50 mm/step
 #define INVERT_X_DIR 1
 
 // Select 1/16 STEP!
-#define Y_STEPS_PER_MM   79.87220447
+#define Y_STEPS_PER_MM   64.0000 // 10 teeth of drive pulley X and the same for the Y-axis
 #define INVERT_Y_DIR 0
 
 // This stepper driver should be in QUARTER STEP MODE (LOW/HIGH/LOW I think)
-#define Z_STEPS_PER_MM   200*4/1.25
+#define Z_STEPS_PER_MM   8.0000  // 20 teeth -> 20*5 = 100  (200*4)/100
 #define INVERT_Z_DIR 1
 
 // Stepper-driven extruder
