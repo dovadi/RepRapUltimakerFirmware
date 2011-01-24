@@ -77,7 +77,7 @@
 #define INVERT_Y_DIR 0
 
 // This stepper driver should be in QUARTER STEP MODE (LOW/HIGH/LOW I think)
-#define Z_STEPS_PER_MM   8.0000  // 20 teeth -> 20*5 = 100  (200*4)/100
+#define Z_STEPS_PER_MM   640.0000  // (200*4)/1.25 (20 teeth)
 #define INVERT_Z_DIR 1
 
 // Stepper-driven extruder
