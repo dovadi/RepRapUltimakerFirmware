@@ -76,8 +76,8 @@
 #define Y_STEPS_PER_MM   64.0000 // 10 teeth of drive pulley X and the same for the Y-axis
 #define INVERT_Y_DIR 0
 
-// This stepper driver should be in QUARTER STEP MODE (LOW/HIGH/LOW I think)
-#define Z_STEPS_PER_MM   640.0000  // (200*4)/1.25 (20 teeth)
+// For Darwin this stepper driver should be in 1/16 STEP MODE!
+#define Z_STEPS_PER_MM   2560.0000  // (200*16)/1.25 (20 teeth)
 #define INVERT_Z_DIR 1
 
 // Stepper-driven extruder
